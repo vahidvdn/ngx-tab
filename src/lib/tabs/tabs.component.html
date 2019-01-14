@@ -1,0 +1,7 @@
+<div class="tab-bar">
+	<div *ngFor="let tabComp of tabCompArr; let i = index" (click)="selectTab(tabComp, i)" class="tab-container" [class.active]="tabComp.active">
+		{{ tabComp.title }}
+	</div>
+</div>
+
+<ng-content></ng-content>

@@ -1,0 +1,13 @@
+.tab-container {
+	display: inline-block;
+    padding: 20px;
+    background: #efefef;
+    margin: 5px;
+    cursor: pointer;
+}
+.active {
+	border-bottom: 2px solid #3809ca;
+}
+.tab-bar {
+	margin-bottom: 15px;
+}
