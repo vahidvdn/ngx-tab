@@ -12,13 +12,13 @@ npm install ngx-tab
 
 Import the NgxTabModule to your app.module.ts file:
 
-```
+```JS
 import { NgxTabModule } from 'ngx-tab'
 ```
 
 And finally:
 
-```
+```html
 <tabs>
   <tab title="Title 01" active=true>Here is content about tab1</tab>
   <tab title="Title 02">Hey, Here is content about tab2</tab>
